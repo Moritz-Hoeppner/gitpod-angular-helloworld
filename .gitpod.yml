@@ -1,3 +1,6 @@
 tasks:
-  - init: npm install && npm run build
-    command: npm run start
+  - init: export NG_CLI_ANALYTICS=ci && npm i && npm i -g @angular/cli
+    command: ng serve
+
+ports:
+  - port: 4200
