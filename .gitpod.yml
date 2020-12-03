@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm i && npm i -g @angular/cli
+  - init: npm i && npm i -g @angular/cli && exit
     command: npm run start
 
 ports:
