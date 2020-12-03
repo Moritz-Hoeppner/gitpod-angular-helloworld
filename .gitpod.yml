@@ -1,5 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
-  - init: export NG_CLI_ANALYTICS=ci && npm i && npm i -g @angular/cli
+  - init: npm i && npm i -g @angular/cli
     command: npm run start
 
 ports:
