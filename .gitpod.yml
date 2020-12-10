@@ -7,3 +7,7 @@ tasks:
 
 ports:
   - port: 4200
+
+vscode:
+  extensions:
+    - Angular.ng-template@0.1100.2:N8OEQENlKzcVF6IHQQDnrg==
